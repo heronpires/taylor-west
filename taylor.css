@@ -1,0 +1,24 @@
+body {
+    background-image: linear-gradient(black, white);
+    background-image: url(img/fogo.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+p {
+    font-size: 3rem;
+}
+
+a {
+    color: white;
+    font-size: 3rem;
+}
+
+a:hover {
+    color: gray;
+}
