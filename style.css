@@ -12,6 +12,9 @@ body {
     flex-direction: column;
 
     background-color: rgb(44, 44, 44);
+    background-image: url(img/tile-grid.png);
+    background-size: 128px;
+
     color: pink;
     font-family: "Lexend";
     font-size: 1.5rem;
@@ -19,13 +22,21 @@ body {
 }
 
 header {
-    background-color: rgb(71, 71, 71);
+    background-color: rgb(39, 39, 39);
     padding: 1rem 0;
     margin-bottom: 1rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: space-evenly;
+}
+
+header img {
+    border: none;
+    max-width: 50px;
+    padding: 0;
+    margin: 0;
 }
 
 h1, h2 {
@@ -79,6 +90,39 @@ a:hover {
 
 .escolhas:hover {
     transform: scale(1.1);
+}
+
+.jogo-iframe-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 10px;
+    background-color: black;
+    border-radius: 16px;
+}
+
+.jogo-iframe {
+    width: 100%;
+    height: 700px;
+    border: none;
+    border-radius: 16px;
+}
+
+.fullscreen-btn {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    font-family: "lexend";
+    font-size: 1rem;
+    background-color: white;
+    color: color;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.fullscreen-btn:hover {
+    background-color: rgb(255, 163, 255);
 }
 
 .pingas {
