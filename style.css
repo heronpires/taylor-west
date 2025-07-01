@@ -33,6 +33,11 @@ header {
     gap: 1rem;
 }
 
+.links-header {
+    display: flex;
+    gap: 2rem;
+}
+
 header img {
     border: none;
     max-width: 50px;
